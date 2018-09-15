@@ -131,3 +131,11 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
    ------------ | ------------ | -------------
     test | 0.000768 | 0.99548
     competition | - | 0.99571
+    
+ - **bigModel**
+   - using a larger model (maybe needed to be trained for longer)
+    
+    \- | loss | accuracy
+   ------------ | ------------ | -------------
+    train | 0.0123 | 0.93850
+    test | 0.0055 | 0.97240
