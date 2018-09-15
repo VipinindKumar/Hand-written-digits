@@ -26,3 +26,17 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
    ------------ | ------------ | -------------
     train | 5.6148e-04 | 0.9968
     test | 0.0026 | 0.9857
+    
+    - Batch normalization, no dropout, 50 epochs, batch size 50
+    
+    set | loss | accuracy
+   ------------ | ------------ | -------------
+    train | 3.3942e-04 | 0.9981
+    test | 0.0022056 | 0.9869
+    competition | 1001(rank) | 0.98757
+    
+    - things to try:
+      - add regularization
+      - keras imageDataGenerator
+      - learning rate changer
+      - new model
