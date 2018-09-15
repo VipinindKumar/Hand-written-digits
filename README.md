@@ -41,7 +41,6 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
       - learning rate changer
       - new model
     
-    
     - dropout in dense layer
     
     set | loss | accuracy
@@ -49,3 +48,18 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
     train | 7.4835e-04 | 0.9956
     test | 0.0022165 | 0.9876
     competition | 943(rank) | 0.98885
+    
+    - ImageDataGenerator for training, 30 epochs, steps per epoch 840
+    
+    set | loss | accuracy
+   ------------ | ------------ | -------------
+    train | 0.0030 | 0.9811
+    test | 0.0020 | 0.9869
+    competition | - | 0.98771
+    - steps per epoch 1400
+    
+    set | loss | accuracy
+   ------------ | ------------ | -------------
+    train | - | -
+    test | 0.00168 | 0.990476
+    competition | - | 0.99185
