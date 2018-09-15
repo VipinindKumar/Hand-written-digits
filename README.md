@@ -139,3 +139,21 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
    ------------ | ------------ | -------------
     train | 0.0123 | 0.93850
     test | 0.0055 | 0.97240
+    
+ - **newModel**
+  
+    - 75 epochs
+    
+    \- | loss | accuracy
+   ------------ | ------------ | -------------
+    train | 0.000864 | 0.9949
+    test | 0.000697 | 0.9960
+    competition | ⬆23 | 0.99628
+    
+    - 100 epochs
+    
+    \- | loss | accuracy
+   ------------ | ------------ | -------------
+    train | 0.0008517 | 0.9947
+    test | 0.0006300 | 0.9964
+    competition | ⬆39 | 0.99657
