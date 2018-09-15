@@ -40,3 +40,12 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
       - keras imageDataGenerator
       - learning rate changer
       - new model
+    
+    
+    - dropout in dense layer
+    
+    set | loss | accuracy
+   ------------ | ------------ | -------------
+    train | 7.4835e-04 | 0.9956
+    test | 0.0022165 | 0.9876
+    competition | 943(rank) | 0.98885
