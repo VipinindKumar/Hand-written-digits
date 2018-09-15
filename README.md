@@ -66,7 +66,7 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
     
     - Reduce learning rate to half after no change in 3 epochs, 50 epochs
     
-     | loss | accuracy
+    \- | loss | accuracy
    ------------ | ------------ | -------------
     test | 0.00144 | 0.98976
     competition | - | 0.99128
