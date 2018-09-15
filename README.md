@@ -124,3 +124,10 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
    ------------ | ------------ | -------------
     test | 0.0008436 | 0.99520
     competition | ⬆27 | 0.99614
+    
+    - Increase ImageDataGenerator arguments
+    
+    \- | loss | accuracy
+   ------------ | ------------ | -------------
+    test | 0.000768 | 0.99548
+    competition | - | 0.99571
