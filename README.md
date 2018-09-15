@@ -95,3 +95,16 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
    ------------ | ------------ | -------------
     test | 0.00114 | 0.99309
     competition | - | 0.99257
+    
+    - L2 regularization in layers (lambda=0.01), 30 epochs
+    
+    \- | loss | accuracy
+   ------------ | ------------ | -------------
+    test | 0.0437 | 0.9321
+    
+    - regularize conv layers only, 30 epochs
+    
+    \- | loss | accuracy
+   ------------ | ------------ | -------------
+    test | 0.001658 | 0.99357
+    competition | - | 0.99371
