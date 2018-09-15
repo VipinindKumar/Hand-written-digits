@@ -9,3 +9,20 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
 - sklearn digits dataset
 - 70% train and 30% for test/dev
 - 97% accuracy on the dev set
+
+## HandWrittenDigits notebook:
+### optimizer='Adam', loss='mean_squared_error', metrics=['accuracy']
+ - **recogModel**
+    - 40 epochs, no dropout
+    
+    set | loss | accuracy
+   ------------ | ------------ | -------------
+    train | 6.1613e-04 | 0.9962378
+    test | 0.0024366 | 0.98595
+    
+    - 50 epochs (lead to a little overfitting)
+    
+    set | loss | accuracy
+   ------------ | ------------ | -------------
+    train | 5.6148e-04 | 0.9968
+    test | 0.0026 | 0.9857
