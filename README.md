@@ -74,3 +74,10 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
     - things to try:
       - change model
       - change parameters of ImageDataGeneraor
+      
+    - steps_per_epoch = X_train.shape[0] / 30, min_lr = 0.0, 30 epochs
+    
+    \- | loss | accuracy
+   ------------ | ------------ | -------------
+    test | 0.001028 | 0.99095
+    competition | ⬆265 | 0.99428
