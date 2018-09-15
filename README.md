@@ -157,3 +157,10 @@ Simple Support Vector Machine Model to predict last image of the sklearn digits 
     train | 0.0008517 | 0.9947
     test | 0.0006300 | 0.9964
     competition | ⬆39 | 0.99657
+
+Stopped at rank 157(top 7%)
+
+- Understanding more about the different models, to understand why some models works better
+- using dropout, maybe not at the first/starting layers
+- Hyperparameter tuning
+- Ensembling
